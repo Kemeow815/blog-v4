@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog-v4.kemeow.top',
-  siteRepo: 'https://github.com/Kemeow/blog-v4',
+  siteRepo: 'https://github.com/Kemeow815/blog-v4',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/geekskai-blog.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
