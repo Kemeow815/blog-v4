@@ -13,8 +13,7 @@ import ProgressBar from '@/components/ProgressBar'
 import ShareButtons from '@/components/ShareButtons'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
-const discussUrl = (path) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
+const discussUrl = (path) => `https://t.me/kemiao_me`
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -101,7 +100,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="xs:p-4 prose max-w-none dark:prose-invert md:p-8">{children}</div>
               <div className="pb-6 pt-6 text-sm text-stone-700 dark:text-stone-300">
                 <Link href={discussUrl(path)} rel="nofollow">
-                  Discuss on Twitter
+                  Discuss on telegram
                 </Link>
                 {` • `}
                 <Link href={editUrl(filePath)}>View on GitHub</Link>
