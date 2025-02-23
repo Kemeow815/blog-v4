@@ -9,7 +9,7 @@ const SiteFooter = () => {
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Resources</h3>
+            <h3 className="mb-4 text-lg font-semibold">资源</h3>
             <div className="space-y-2">
               <Link href="/blog" className="hover:text-primary-600 dark:hover:text-primary-400">
                 Blog
@@ -17,7 +17,7 @@ const SiteFooter = () => {
             </div>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Free Tools</h3>
+            <h3 className="mb-4 text-lg font-semibold">免费工具</h3>
             <div className="space-y-2">
               <Link
                 href="/tools/pdf-to-markdown"
@@ -28,7 +28,7 @@ const SiteFooter = () => {
             </div>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Company</h3>
+            <h3 className="mb-4 text-lg font-semibold">关于我</h3>
             <div className="space-y-2">
               <Link href="/about" className=" hover:text-primary-600 dark:hover:text-primary-400">
                 About Us
@@ -36,7 +36,7 @@ const SiteFooter = () => {
             </div>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Connect</h3>
+            <h3 className="mb-4 text-lg font-semibold">联系</h3>
             <div className="mb-3 flex space-x-4">
               <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
               <SocialIcon kind="github" href={siteMetadata.github} size={6} />
