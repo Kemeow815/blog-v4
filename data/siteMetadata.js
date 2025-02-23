@@ -1,27 +1,25 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'geekskai',
-  author: 'Geeks Kai',
-  headerTitle: 'geekskai',
-  description:
-    'A digital hub for web dev tools, tech insights, and sustainable living. Bridging Chinese and global tech perspectives through practical guides and thoughtful analysis.',
-  language: 'en-us',
+  title: '克喵Kemeow Blog',
+  author: '克喵Kemeow',
+  headerTitle: 'Kemeow',
+  description: '致力于分享资源和生活~',
+  language: 'zh-CN',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://geekskai.com',
-  siteRepo: 'https://github.com/geekskai/blog',
+  siteUrl: 'https://blog-v4.kemeow.top',
+  siteRepo: 'https://github.com/Kemeow/blog-v4',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/geekskai-blog.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'geeks.kai@gmail.com',
-  github: 'https://github.com/geekskai',
+  email: 'kemiao@kmblog.icu',
+  github: 'https://github.com/Kemeow815',
   x: 'https://twitter.com/GeeksKai',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://www.facebook.com/geekskai',
   youtube: 'https://www.youtube.com/@kaigan-is6ym',
-  linkedin: 'https://www.linkedin.com/in/geekskai',
+  telegram: 'https://t.me/kemiaofx_me',
   threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  locale: 'zh-CN',
   // set to true if you want a navbar fixed to the top
   stickyNav: true,
   analytics: {
@@ -80,7 +78,7 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'zh',
     },
   },
   search: {
