@@ -78,7 +78,7 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: 'https://giscus.app/themes/custom_example.css',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'zh',
+      lang: 'en',
     },
   },
   search: {
